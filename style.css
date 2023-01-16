@@ -1,0 +1,290 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  position: absolute;
+  width: 1500px;
+  height: 700px;
+  left: 0px;
+  top: 0px;
+  background: rgba(255, 144, 14, 0.1);
+}
+
+/* header and navigation styles */
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 228px;
+}
+
+.nav-title {
+  font-weight: 302px;
+  height: 53px;
+  top: 50px;
+  left: 228px;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav li {
+  list-style: none;
+  margin-left: 63px;
+}
+
+.text-title {
+  text-align: center;
+  font-size: 35px;
+}
+
+.sub-title{
+  margin-top: 10px;
+  text-align: center;
+}
+
+.btn-primary {
+
+  width: 180px;
+  height: 64px;
+  background: #ff900e;
+  border-radius: 8px;
+  border: 0px;
+  font-weight: 600;
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  margin: 30px 671px;
+}
+
+.picture {
+  margin-left: 350px;
+  position: relative;
+  width: 50%;
+  padding: 0px 70px;
+}
+
+.picture img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.Photo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 75px;
+}
+
+.image {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+
+.text {
+  
+  margin-left: 73px;
+}
+
+.pra1 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 45px;
+  line-height: 53px;
+  color: #727272;
+}
+
+.pra2 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 45px;
+  line-height: 53px;
+  color: #131313;
+}
+
+.pra3 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 45px;
+  line-height: 53px;
+  color: #ff900e;
+}
+
+
+
+.pragraph {
+  font-weight: 400;
+  font-size: 16px;
+  color: #727272;
+  margin-top: 10px;
+}
+
+.btn {
+  width: 180px;
+  height: 64px;
+  background: #ff900e;
+  border-radius: 8px;
+  border: 0px;
+  font-weight: 600;
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 15px;
+
+}
+
+.section {
+  display: flex;
+
+  margin-top: 130px;
+}
+
+.blogs {
+  flex-direction: column;
+}
+
+.enjoy {
+  border-left: 5px solid #ff900e;
+  padding: 0.01em 20px;
+  color: #131313;
+}
+
+.second-pra {
+  margin-top: 8px;
+  margin-bottom: 30px;
+}
+
+.dextop {
+  font-weight: 500px;
+  font-size: 15px;
+  color: #131313;
+  padding: 30px;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+  border-radius: 8px;
+  width: 586px;
+
+}
+
+.drag {
+  padding: 30px;
+  background: #ffffff;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+  border-radius: 8px;
+  width: 586px;
+  margin-top: 20px;
+}
+
+.awesome {
+  font-weight: 500px;
+  font-size: 15px;
+  color: #131313;
+  padding: 30px;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+  border-radius: 8px;
+  width: 586px;
+}
+
+.super {
+  font-weight: 500px;
+  font-size: 15px;
+  color: #131313;
+  padding: 30px;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+  border-radius: 8px;
+  width: 586px;
+}
+
+.pic2 {
+  position: relative;
+  margin-right: 200px;
+  margin-top: 80px;
+  margin-left: 100px;
+
+}
+
+.pic2 img {
+  height: 700px;
+  width: 800px;
+}
+
+.button1 {
+  width: 300px;
+  height: 100px;
+  margin-top: -640px;
+  color: #ffffff;
+  background: #ff900e;
+  border-radius: 8px;
+  border: 0;
+  margin-left: -85px;
+}
+
+.facts {
+  margin-top: 100px;
+}
+
+.facts h1 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 45px;
+  color: hsl(0, 0%, 7%);
+}
+
+.some-facts {
+text-align: center;
+  font-size: 16px;
+  color: #150202;
+}
+
+.some {
+  display: flex;
+  justify-content: center;
+  gap: 124px;
+  margin-top: 100px;
+}
+
+.Box {
+  width: 200px;
+  height: 200px;
+  border: 1px solid #ff900e;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+  background-color: aquamarine;
+}
+
+.spon {
+  text-align: center;
+}
+
+.our {
+  font-size: 45px;
+  color: #131313;
+  margin: 40px 0px;
+}
+
+.logo {
+  text-align: center;
+  background: white;
+}
+
+.logo img {
+  padding: 50px;
+  mix-blend-mode: luminosity;
+}
+
+.footer {
+  position: absolute;
+  background-color: aqua;
+  height: 40px;
+  padding: 30px;
+  left: 500px;
+  top: 3250px;
+}
